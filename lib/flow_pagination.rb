@@ -12,8 +12,7 @@ module FlowPagination
             @template.t('flow_pagination.button', :default => 'More'),
             :url => { :controller => @template.controller_name,
               :action => @template.action_name,
-              :page => self.next_page,
-              :params => @template.params},
+              :params => @template.params.merge!(:page => self.next_page)},
             :method => @template.request.request_method)
       end
 
