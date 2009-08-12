@@ -25,7 +25,7 @@ Configure +WillPaginate+ and +FlowPagination+ gems (config/environment.rb):
     config.gem 'mislav-will_paginate', :lib => 'will_paginate',
         :source => 'http://gems.github.com'
 
-    config.gem 'innetra-flow_pagination', :lib => 'flow_pagination',
+    config.gem 'mexpolk-flow_pagination', :lib => 'flow_pagination',
         :source => 'http://gems.github.com'
     [...]
   end
@@ -37,7 +37,7 @@ To install these gems type the following rake task:
 === Install It as a Plugin
 
   script/plugin install git://github.com/mislav/will_paginate.git
-  script/plugin install git://github.com/innetra/flow_pagination.git
+  script/plugin install git://github.com/mexpolk/flow_pagination.git
 
 == Usage
 
