@@ -1,6 +1,7 @@
+MIT-LICENSE
 Manifest
 README.rdoc
 Rakefile
+flow_pagination.gemspec
 init.rb
 lib/flow_pagination.rb
-MIT-LICENSE

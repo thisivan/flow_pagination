@@ -8,12 +8,25 @@ module FlowPagination
       flow_pagination = ''
 
       if self.current_page < self.last_page
+
+        @template_params = @template.params.clone
+        @template_params.delete(:controller)
+        @template_params.delete(:action)
+
+        @url_params = {
+          :controller => @template.controller_name,
+          :action     => @template.action_name,
+          :page       => self.next_page
+        }
+
+        stringified_merge @url_params, @template_params if @template.request.get?
+        stringified_merge @url_params, @options[:params] if @options[:params]
+
         flow_pagination = @template.button_to_remote(
             @template.t('flow_pagination.button', :default => 'More'),
-            :url => { :controller => @template.controller_name,
-              :action => @template.action_name,
-              :params => @template.params.merge!(:page => self.next_page)},
+            :url    => @url_params.flatten_for_url,
             :method => @template.request.request_method)
+
       end
 
       @template.content_tag(:div, flow_pagination, :id => 'flow_pagination')
