@@ -12,6 +12,7 @@ module FlowPagination
         @template_params = @template.params.clone
         @template_params.delete(:controller)
         @template_params.delete(:action)
+        @template_params.delete(:page)
 
         @url_params = {
           :controller => @template.controller_name,
