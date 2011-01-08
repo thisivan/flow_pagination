@@ -1,3 +1,5 @@
+require 'will_paginate/view_helpers/link_renderer'
+
 module FlowPagination
 
   # FlowPagination renderer for (Mislav) WillPaginate Plugin
