@@ -11,8 +11,15 @@ the previous ones.
 
 == Requirements
 
-* Mislav's {WillPaginate}[http://github.com/mislav/will_paginate/tree/master]
+* Mislav's {WillPaginate}[http://github.com/mislav/will_paginate]
   plugin/gem.
+
+== Installation Rails 3
+
+In order to get it working, setup both gems like this:
+
+  gem 'will_paginate', :git => 'git://github.com/mislav/will_paginate.git', :branch => 'rails3'
+  gem 'flow_pagination', :git => 'git://github.com/mexpolk/flow_pagination.git', :branch => 'rails3'
 
 == Installation
 
