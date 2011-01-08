@@ -1,7 +1,7 @@
 module FlowPagination
 
   # FlowPagination renderer for (Mislav) WillPaginate Plugin
-  class LinkRenderer < WillPaginate::LinkRenderer
+  class LinkRenderer < WillPaginate::ViewHelpers::LinkRenderer
 
     # Render flow navigation
     def to_html
