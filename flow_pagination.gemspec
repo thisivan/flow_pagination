@@ -2,9 +2,9 @@
 
 Gem::Specification.new do |s|
   s.name = %q{flow_pagination}
-  s.version = "1.2.1"
+  s.version = "2.0.0"
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
+  # s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ivan Torres"]
   s.cert_chain = ["/Users/ivan/.ssh/gem-public_cert.pem"]
   s.date = %q{2010-11-01}
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{flow_pagination}
   s.rubygems_version = %q{1.3.7}
-  s.signing_key = %q{/Users/ivan/.ssh/gem-private_key.pem}
+  # s.signing_key = %q{/Users/ivan/.ssh/gem-private_key.pem}
   s.summary = %q{FlowPagination link renderer plugin for Mislav's WillPaginate plugin (Twitter like pagination).}
 
   if s.respond_to? :specification_version then
