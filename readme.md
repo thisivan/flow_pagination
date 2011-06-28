@@ -1,7 +1,7 @@
 # FlowPagination [![](http://stillmaintained.com/mexpolk/flow_pagination.png)](http://stillmaintained.com/mexpolk/flow_pagination)
 
 FlowPagination link renderer plugin for Mislav's
-{WillPaginate}[http://github.com/mislav/will_paginate/tree/master] plugin (Twitter like pagination).
+[http://github.com/mislav/will_paginate/tree/master](WillPaginate) plugin (Twitter like pagination).
 
 Instead of showing page links, this plugin/gem change the rendering of
 WillPaginate to display, at the bottom of the page's records, the "More" button.
@@ -10,7 +10,7 @@ the previous ones.
 
 ## Requirements
 
-* Mislav's {WillPaginate}[http://github.com/mislav/will_paginate] plugin/gem.
+* Mislav's [http://github.com/mislav/will_paginate](WillPaginate) plugin/gem.
 
 ## Installation Rails 3
 
@@ -107,7 +107,7 @@ Thanks to Rowan Rodrik for the code (http://blog.bigsmoke.us/2007/02/19/nested-h
 
 ## Usage
 
-There's flow_pagination_example[http://github.com/mexpolk/flow_pagination_example/tree/master]
+There's [http://github.com/mexpolk/flow_pagination_example/tree/master](flow_pagination_example)
 application to see this gem in action.
 
 Enjoy!
